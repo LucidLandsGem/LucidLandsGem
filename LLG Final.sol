@@ -425,8 +425,8 @@ abstract contract LLGBase is Context, IERC20Metadata, Ownable, ReentrancyGuard {
 	uint256 private _maxHoldAmount;
 
     // marketing and dev address
-    address private _marketingWallet = 0xB0F8dD8469dcB6E1Eb50a818FE206f0D1299936e;
-    address private _devAddress = 0xF565aaf0b8EB813a1c8C956D2C59F1ce27FD2366;
+    address private _marketingWallet = 0x0534474C7D2E7023196c5d5c769cCEc8FcB239BD;
+    address private _devAddress = 0xBd25a03B27CD302CD3681bA3274a36F3Aafc84f7;
     
 	// PANCAKESWAP INTERFACES (For swaps)
 	address private _pancakeSwapRouterAddress;
